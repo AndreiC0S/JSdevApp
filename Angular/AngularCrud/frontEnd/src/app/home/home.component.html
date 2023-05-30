@@ -1,1 +1,11 @@
-<p>home works!</p>
+
+
+<div class="card">
+    <div  *ngFor="let user of users ">
+        <h5 >{{user.nume}}  {{user.prenume}}</h5>
+        <p >{{user.email}}</p>
+        <!-- <a [routerLink]="'/profil' , user.id" class="btn btn-primary">vezi mai mult</a> -->
+</div>
+
+</div>
+
