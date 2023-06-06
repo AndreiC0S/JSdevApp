@@ -1,0 +1,41 @@
+ <div class="container border border-primary mt-1 ">
+
+    <p>profil User</p>
+    <p>Nume: {{ user.nume}}</p>
+    <p>Prenume: {{ user.prenume}}</p>
+    <p>Email: {{ user.email}}</p>
+    <p>Telefon: {{ user.telefon}}</p>
+    <p>Data Nastere:{{ user.datanastere}}</p>
+    <p>Data adaugare{{ user.dataadaugare}}</p>
+
+     
+
+</div> 
+
+<div class="container">
+    <table class="table table-striped  justify-content-center">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nume</th>
+            <th scope="col">Prenume</th>
+            <th scope="col">Email</th>
+            <th scope="col">telefon</th>
+            <th scope="col">Data Nastere</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{ user.id }}</td>
+            <td>{{ user.nume }}</td>
+            <td>{{ user.prenume }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.telefon }}</td>
+            <td>{{ user.datanastere }}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+
+
