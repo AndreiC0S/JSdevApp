@@ -10,6 +10,7 @@ import NoPage from "./pages/NoPage";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import Autor from "./pages/Autor";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +22,8 @@ root.render(
           <Route path="home" element={<Home />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="autor" element={<Autor />} />
+          
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
